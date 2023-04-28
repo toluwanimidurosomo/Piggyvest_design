@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100w;
+    height: 100vh;
+    background-color: #111b21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 90%;
+    height: 96%;
+    background-color: white;
+    display: flex;
+}
+
+.sidebar {
+    width: 17%;
+    background-color: blue;
+    height: 100%;
+    border-right: 1px solid #cccccc30;
+}
+
+.header-icon {
+    padding: 30px 0px;
+}
+
+.menu {
+    padding: 0 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.logos {
+    width: 100px;
+    height: 20px;
+}
+
+.logos img {
+    width: 20%;
+    height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    padding: 20px 0px;
+    list-style: none;
+}
+
+.fa {
+    padding: 0 20px;
+}
+
+.acc {
+    width: 100px;
+    height: 25px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.logout {
+    padding-top: 430px;
+}
+
+.savings-area {
+    display: flex;
+    padding: 60px 40px;
+    width: 100%;
+    /* height: 100%; */
+    overflow-y: scroll;
+
+}
+
+.myaccount {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.text1 {
+    padding-bottom: 5px;
+}
+
+.name {
+    font-size: 10px;
+    color: paleturquoise;
+}
+
+.text,
+.profile-img,
+.search {
+    padding-bottom: 30px;
+}
+
+.profile-img {
+    width: 450px;
+    height: 200px;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.search span {
+    position: absolute;
+    left: 20px;
+}
+
+.search input {
+    width: 100%;
+    height: 40px;
+    padding-left: 50px;
+    outline: none;
+    font-size: 10px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.pprofile {
+    padding-top: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pprofile-img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 230px;
+}
+
+.pprofile-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.form1 {
+    display: grid;
+    width: 550px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.search1 {
+    margin: 10px;
+    width: 300px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid grey;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.h3 {
+    font-weight:500;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.card-txt {
+    font-size: 13px;
+    padding: 10px;
+}
+
+/* .search1 input {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    outline: none;
+    font-size: 10px;
+    border: 10px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+} */
+
+/* .search1 span {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+} */
